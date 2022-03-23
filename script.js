@@ -12,11 +12,12 @@ decrease.addEventListener("click", function(){
         number.style.color = "red";
     }
     
+    
 })
 reset.addEventListener("click", function(){  
     number.innerHTML = reduc - reduc;
     if(reduc = 0){
-        number.style.color = "red";
+        number.style.color = "black";
     }
 })
 increase.addEventListener("click", function(){  
