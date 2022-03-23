@@ -1,6 +1,10 @@
 body{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: rgb(52, 52, 53);
+    display:flex;
+    justify-content:center;
+    align-content:center;
+    
 }
 #number{
     font-size: 70px;
