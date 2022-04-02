@@ -11,12 +11,15 @@ decrease.addEventListener("click", function(){
     if(reduc < 0){
         number.style.color = "red";
     }
+    else if (num ===0){
+    number.style.color = "black";
+}
     
     
 })
-reset.addEventListener("click", function(){  
+reset.addEventListener("click", ()=>{  
     number.innerHTML = reduc - reduc;
-    if(reduc = 0){
+    if(reduc === reduc-reduc){
         number.style.color = "black";
     }
 })
@@ -26,4 +29,7 @@ increase.addEventListener("click", function(){
     if(reduc > 0){
         number.style.color = "green";
     }
+    else if (num ===0){
+    number.style.color = "black";
+}
 })
